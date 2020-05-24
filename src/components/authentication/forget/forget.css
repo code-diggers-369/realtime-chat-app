@@ -1,0 +1,15 @@
+.forget-pass-container {
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+}
+
+@media (max-width: 770px) {
+  .forget-pass-img {
+    width: 50%;
+  }
+}
+
+.forget-pass-img {
+  width: 100%;
+}

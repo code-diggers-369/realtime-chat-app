@@ -1,0 +1,41 @@
+/* .block-texts {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+} */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .hidden {
+    display: none;
+  }
+  .nohidden {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .hidden {
+    display: block;
+  }
+  .nohidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hidden {
+    display: block;
+  }
+  .nohidden {
+    display: none;
+  }
+}

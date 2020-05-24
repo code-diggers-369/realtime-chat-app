@@ -1,0 +1,31 @@
+.chat-list,
+.chat-list-btn {
+  display: flex;
+  align-items: center;
+}
+
+.chat-list-btn {
+  justify-content: center;
+}
+
+.chat-list-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.overflow {
+  overflow-y: auto;
+  height: 400px;
+  padding: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .overflow {
+    height: 320px;
+  }
+}

@@ -1,0 +1,21 @@
+.more-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(66, 57, 199);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  width: 50%;
+}
+
+.options {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: large;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

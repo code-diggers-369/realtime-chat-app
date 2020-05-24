@@ -1,0 +1,66 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.login-container {
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.right {
+  font-family: "Roboto Slab, serif";
+}
+
+.email,
+.password,
+.login-btn {
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+  outline: none;
+  border: solid black 1px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email,
+.password {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 400px) {
+  .email,
+  .password,
+  .login-btn {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .email,
+  .password,
+  .login-btn {
+    width: 150px;
+  }
+}
+
+@media (max-width: 770px) {
+  .login-img {
+    width: 50%;
+  }
+}
+
+.login-img {
+  width: 100%;
+}
